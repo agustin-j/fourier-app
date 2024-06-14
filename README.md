@@ -6,4 +6,5 @@ The app is pretty simple, you have three options: **"Draw SVG"**, **"Import SVG"
 All of these options give you the freedom to choose the *FPS* (frames per second), the amount of *frames*, the *precision* of the **Fourier coefficients** and *N* which refers to the amount of coefficients. After the functions are calculated, you are presented with a live-plot made with *matplotlib* that tries to mantain a steady framerate. However, this is not always possible so that's why you can save the animation as a GIF to later view it without any FPS drops.
 
 ![music note](gif/music-note.gif)
+
 ![sigma](gif/sigma.gif)
