@@ -1,0 +1,5 @@
+type,function,a,b,interval
+complex,(1j+1)*t,2,5,10
+real,t*2,2,5,10
+real,t,0,10,10
+complex,np.e**(1j*t),0,2*np.pi,4*np.pi
