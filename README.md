@@ -10,9 +10,11 @@ All of these options give you the freedom to choose the <i>FPS</i> (frames per s
     <img src="gif/music-note.gif" width="50%"/>
 </p>
 
+See more here: [My site](https://agustin-j.github.io/)
+
 ## INSTALLATION
 
-Tested in Python version 3.12.2 and 3.11.9 using Windows. For the app to work you have to install the libraries inside requirements.txt using the following command:
+Tested in Python version *3.12.2* and *3.11.9* using Windows. For the app to work you have to install the libraries inside *requirements.txt* using the following command:
 
 ```
 pip install requirements.txt
