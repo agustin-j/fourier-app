@@ -1,5 +1,4 @@
 # FOURIER APP
-<<<<<<< HEAD
 <p align="justify">A tkinter app made in python that allows you to draw curves that are later converted to an SVG or import a .svg or .csv file directly. The paths of the SVG and functions of the CSV are later approximated by the use of Fourier series. You can choose between different settings for the animation and save them as GIFs.</p>
 <p align="justify">
 The app is pretty simple, you have three options: <b>Draw SVG</b>, <b>Import SVG</b> and <b>Import CSV</b>. If you choose the first one, you can draw on a canvas that later saves the drawing as an SVG. This SVG is later parsed to get the functions that define the different curves. If you decide to import the SVG, you are just presented with a file selection menu where you select the SVG that's later previewed. Last but not least, "Import CSV" allows you to import a CSV with real and complex functions where you can choose which function to approximate.</p>
@@ -20,5 +19,3 @@ pip install requirements.txt
 ```
 
 Clone the entire repository and don't change the folders name. If the fonts don't load, try to first install them on your system.
-=======
->>>>>>> 729f39939440d5e76489707b9573a93e6499eb14
