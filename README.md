@@ -20,4 +20,4 @@ pip install requirements.txt
 
 Clone the entire repository and don't change the folders name. If the fonts don't load, try to first install them on your system.
 
-See more here: [My site](https://agustin-j.github.io/)
+See more here: [my site](https://agustin-j.github.io/)
