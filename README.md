@@ -8,9 +8,8 @@ All of these options give you the freedom to choose the <i>FPS</i> (frames per s
 <p align="middle">
     <img src="gif/sigma.gif" width="50%"/>
     <img src="gif/music-note.gif" width="50%"/>
+    See more here: [My site](https://agustin-j.github.io/)
 </p>
-
-See more here: [My site](https://agustin-j.github.io/)
 
 ## INSTALLATION
 
