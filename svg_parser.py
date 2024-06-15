@@ -34,6 +34,8 @@ def open_svg(namefile, pre_parsed):
                 path = i.split("d=")[1].split('"')[1]
                 break
         path = " ".join(path.split(f"\n"))
+        path = " ".join(path.split())
+        path = " ".join(path.split(","))
         if pre_parsed == False:
             temp_path = ""
             fixed = False
@@ -41,13 +43,16 @@ def open_svg(namefile, pre_parsed):
             prev_number = False
             for j in range(len(path)):
                 fixed = False
-                if path[j].isdigit() == True or path[j] == "." or path[j] == "-" or path[j] =="e":
+                if path[j].isdigit() == True or path[j] == "." or (path[j] == "-" and path[j-1].isdigit() == False) or path[j] =="e":
                     if prev_number != True:
                         if num_count < 1:
                             num_count += 1
                         else:
                             num_count = 0
                     prev_number = True
+                elif path[j] in chars:
+                    num_count = 0
+                    prev_number = False
                 else:
                     prev_number = False
                 if j == 0: # CHECK THE START OF PATH
@@ -445,7 +450,7 @@ def open_svg(namefile, pre_parsed):
         # DELETE "-" AND SAVE THE FUNCTION
         function_split = [i for i in function_split if i != "-"]
         function_split.pop(0)
-        # with open(f"paths/{namefile.split("/")[-1]}_path.txt", "w") as w_file:
+        # with open(f"{namefile}_path.txt", "w") as w_file:
         #     w_file.write(str(function_split))
         #     w_file.close()
 
